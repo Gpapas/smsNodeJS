@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.logo-container,
+.eth-logo-container {
+    position: absolute;
+    z-index: 1000;
+}
+
+.logo-container {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eth-logo-container {
+    top: 20px;
+    right: 20px;
+}
+
+.tdi-logo {
+    width: 150px;
+}
+
+.eth-logo {
+    width: 100px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.408);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow:  10px 8px 15px #e10075;
+    max-width: 500px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Existing styles for the send button */
+input[type="submit"] {
+    background-color: #77bfc7;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #559a99;
+}
+
+/* Update the send button to be square with soft edges */
+input[type="submit"] {
+    background-image: url('/metamask-icon.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+    border: none;
+    border-radius: 100px; /* Adjust the border-radius for soft edges */
+    padding: 10px 20px;
+    width: 240px; /* Set a fixed width to make it square */
+}
+
+.about-us {
+    position: absolute;
+    bottom: 15px; /* Adjust the distance from the bottom as needed */
+    left: 15px; /* Adjust the distance from the left as needed */
+    
+    padding: 5x;
+    border-radius: 15px;
+}
+
+
